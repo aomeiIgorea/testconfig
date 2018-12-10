@@ -4,11 +4,11 @@ spring:
     - dev
 ---
 spring:
-  profiles: test
+  profiles: dev
   application:
     name: test config dev
 ---
 spring:
-  profiles: dev
+  profiles: test
   application:
     name: test config test
