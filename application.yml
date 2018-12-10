@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles:
+  application:
+    name: test config dev
+---
+spring:
+  profiles:
+  application:
+    name: test config test
